@@ -50,7 +50,9 @@ body {
     margin: 6%;
     margin-left: 15%;
     width: 23%;
+    max-width: 320px;
     height: 25%;
+    max-height: 400px;
     background-color: rgb(18, 53, 82);
     color: white;
     display: flex;
@@ -188,7 +190,8 @@ how to shift */
     0 10px; /* Shift horizontal lines 10px down (optional) */
     width: 32%;
     height: 35%;
-    
+    max-width: 370px;
+    max-height: 600px;
 }
 
 .price-card {
