@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: system-ui;
+    /* font-family: system-ui; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: auto;  
     width: 1600px;
 
 }
@@ -52,21 +54,21 @@ body {
 .signup {
     margin: 170px;
     margin-left: 240px;
-    width: 290px;
+    width: 300px;
     height: 340px;
     background-color: rgb(18, 53, 82);
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 50px 40px;
 }
 
 .smaller {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 .bigger {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 45px;
 }
 
